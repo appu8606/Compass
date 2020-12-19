@@ -21,23 +21,23 @@ img:hover{opacity:0.75}
 .blue_btn:hover{background-color:#39c8f7; color:#fff}
 .transition{-webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 #header{float:left; display:inline; width:100%}
-.header_top{  display:inline; float:left; width:100%; background-color: black; border-bottom:1px solid black}
+.header_top{max-width: 100%; display:inline; float:left; width:100%; background-color: black; border-bottom:1px solid black}
 .header_top_left{ float:left; display:inline; width:70%}
-.top_nav{ margin-top: 4px; text-align:left; height: 42px; width: 930px;}
-.top_nav span{ font-size: large; padding-left: 20px;}
+.top_nav{ position: relative; margin-top: 4px; text-align:left; max-width: 100%; max-height: 100%;}
+.top_nav span{ font-size: large; float: left;}
 .top_nav li{ display:inline-block}
 .top_nav li a{ color:white; display:inline-block; font-family:"Oswald",sans-serif; font-size:12px; padding:8px 12px; text-transform:uppercase; -webkit-transition:all 0.5; -o-transition:all 0.5; transition:all 0.5}
 .top_nav li a:hover{ color:#ffc400; text-decoration:none; outline:none}
-.top_nav i{float:right; padding:12px; color: white; height: 30px; width: 30px;}
-.header_top_right{ float:right; display:inline; width:30%; text-align:right}
+.top_nav i{float: right; padding:12px; color: white; max-width: 100%; max-height: 100%;}
+.header_top_right{ float: right; display:inline; max-width:100%; text-align:right}
 .search_form{ padding:4px 0 8px}
-.search_form input[type="text"]{ background:none repeat scroll 0 0 #ffc400; border-radius: 3px; border:medium none; color:#afafaf; display:inline-block; line-height:27px; margin:0; max-height:31px; padding:0 0 0 15px; width:180px}
+.search_form input[type="text"]{ background:none repeat scroll 0 0 #ffc400; border-radius: 3px; border:medium none; color:#afafaf; display:inline-block; line-height:27px; margin:0; max-height:100%; padding:0 0 0 15px; max-width:100%}
 .search_form input[type="submit"]{margin-bottom: -5px; background:url("images/icon-search.png") no-repeat scroll center 5px rgba(0,0,0,0); height:27px; line-height:27px; width:30px; border:none}
 .search_form input::placeholder{color: black;}
 .header_bottom{display:inline; float:left; width:100%; padding:30px 0px}
 .header_bottom_left{float:left; display:inline; width:217px}
 .logo{display:block; font-family:"Oswald",sans-serif; font-size:35px; font-weight:bold; line-height:32px; width:150px}
-.logo > img{margin-left: 255%;}
+.logo > img{width: 300px;height: 90px; max-height: 100%;}
 .logo > img:hover{opacity:1}
 .logo > strong{color:#FFA500}
 .logo > span{display:block; font-size:16px; font-weight:normal}
